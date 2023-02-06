@@ -1,11 +1,5 @@
 /* Example client website styling */
 
-/*
-For production use, this should be split up in to the relevant
-component directories. Minifying the CSS and including only one CSS
-file would also be ideal here.
-*/
-
 /* Reset */
 
 @-webkit-viewport, @-moz-viewport, @-ms-viewport, @-o-viewport, @viewport {
