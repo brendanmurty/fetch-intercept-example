@@ -17,7 +17,7 @@ const fetchOne = fetch(urlUnreadBookmarks)
     json.forEach(bookmark => {
       var elementItem = document.createElement('li');
 
-      elementItem.innerHTML = '<a href="' + bookmark.href + '">' + bookmark.description + '</a>';
+      elementItem.innerHTML = `<a href="${ bookmark.href }">${ bookmark.description }</a>`;
 
       elementList.append(elementItem);
     });
