@@ -23,8 +23,7 @@ window.fetch = async (...arguments) => {
   - One of the many reasons that code review and technical oversight is required
   */
 
-
-  // Return the original response so that the original fetch call will complete
-  // without any issues
+  // Return the original response so that the original fetch call
+  // will complete without any issues
   return response;
 };
