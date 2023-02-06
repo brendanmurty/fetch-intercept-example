@@ -1,9 +1,10 @@
+/* Example client website styling */
+
 /*
 For production use, this should be split up in to the relevant
 component directories. Minifying the CSS and including only one CSS
 file would also be ideal here.
 */
-
 
 /* Reset */
 
@@ -34,8 +35,6 @@ html {
 /* Layout */
 
 body {
-  background-color: #111;
-  color: #fff;
   font-size: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
