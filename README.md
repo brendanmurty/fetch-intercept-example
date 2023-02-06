@@ -1,1 +1,4 @@
-# fetch-intercept-example
+# Fetch intercept example
+
+An example of intercepting a fetch request using JavaScript.
+
