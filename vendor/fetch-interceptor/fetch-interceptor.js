@@ -23,8 +23,8 @@ window.fetch = async (...arguments) => {
   // trigger an error ("RangeError: Maximum call stack size exceeded")
   let response = await window.originalFetch(...arguments);
 
-  // Clone the response so that the original fetch call below will not
-  // be affected by an error ("TypeError: Failed to execute 'json' on 'Response': body stream already read")
+  // Clone the response so that the original fetch call will not be affected by 
+  // an error ("TypeError: Failed to execute 'json' on 'Response': body stream already read")
   let responseJson = await response.clone().json();
   console.log('Intercepted response', responseJson);
 
